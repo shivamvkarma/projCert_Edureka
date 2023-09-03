@@ -1,0 +1,6 @@
+[slave]
+13.233.161.140
+
+[slave:vars]
+ansible_user=ec2-user
+ansible_python_interpreter=/usr/bin/python3.9
