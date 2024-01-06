@@ -1,6 +1,6 @@
 plugin: aws_ec2
 regions: # populate inventory with instances in these regions
-  - us-east-1
+  - ap-south-1
 
 filters:
   # all dev hosts
