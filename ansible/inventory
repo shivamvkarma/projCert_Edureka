@@ -1,5 +1,5 @@
 [slave]
-52.202.84.134
+43.204.58.224
 
 [slave:vars]
 ansible_user=ec2-user
