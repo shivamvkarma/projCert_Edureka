@@ -1,11 +1,11 @@
 # Job1 - slave
 ```
-sudo yum update -y
-sudo yum install git python3 openssh-server -y
+sudo apt update -y
+sudo apt install git python3 openssh-server -y
 ```
 # Job2 - master
 ```
-sudo ansible-playbook -i ansible/inventory ansible/playbook.yaml
+sudo ansible-playbook -i ansible/playbook.yaml
 ```
 # Job3 - slave
 ```

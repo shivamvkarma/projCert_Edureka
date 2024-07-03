@@ -1,5 +1,5 @@
 ---
-- hosts: "all"
+- hosts: webserver
   become: yes
   tasks:
     - name: Update all packages
@@ -16,7 +16,7 @@
       vars:
         packages:
         - python-pip
-        - yum-utils
+          #        - yum-utils
         - device-mapper-persistent-data
         - lvm2
         - docker
